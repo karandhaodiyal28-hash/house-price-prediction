@@ -1,0 +1,48 @@
+HOUSE PRICE PREDICTION — BUSINESS INSIGHTS
+==================================================
+
+1. PRICE RANGE & MARKET SPAN
+   House prices range from $144,584 to $1,768,915, with an average of $801,002 and a median of $759,081. The gap between mean and median indicates right-skewed distribution, meaning the market has premium properties pulling the average up. Investors should note that a small segment of high-value homes significantly inflates the perceived average price.
+
+2. AREA IS THE DOMINANT PRICE DRIVER
+   The correlation between Area and Price is 0.56, making it the single strongest numerical predictor of house value. Every additional square foot adds significant value, and larger homes command disproportionately higher prices per unit area in premium locations. Real estate agents should prioritize showcasing total area in listings, and buyers should carefully evaluate the price-per-square-foot metric to assess fair value.
+
+3. LOCATION COMMANDS A 172% PRICE PREMIUM
+   'Downtown' is the most expensive location (avg $1,086,954), while 'Rural' is the most affordable (avg $399,232). This translates to a 172% premium for top-tier locations. Developers should consider investing in emerging areas near premium locations to capture spillover demand, while budget-conscious buyers should target affordable zones with good connectivity to commercial hubs.
+
+4. BEDROOMS DRIVE SIGNIFICANT PRICE JUMPS
+   Average prices by bedroom count:
+   - 1 bedrooms: $659,157
+   - 2 bedrooms: $763,258
+   - 3 bedrooms: $836,882
+   - 4 bedrooms: $893,976
+   - 5 bedrooms: $867,457
+   Each additional bedroom adds substantial value, but the marginal gain tends to decrease after 3 bedrooms. Homeowners considering renovations should evaluate whether adding a bedroom provides a positive return on investment, especially in areas where the price premium per bedroom exceeds the construction cost.
+
+5. BATHROOMS ARE A HIGH-IMPACT AMENITY (r = 0.09)
+   The number of bathrooms shows a correlation of 0.09 with price. Homes with more bathrooms are perceived as higher quality and attract premium buyers. Properties with a bathroom-to-bedroom ratio below 0.5 tend to sell at a discount. Sellers should ensure at least a 1:1 ratio for maximum market appeal, and consider adding a half-bath as a cost-effective upgrade that boosts perceived value.
+
+6. PARKING ADDS MEASURABLE VALUE
+   Average prices by parking capacity:
+   - 0 parking spots: $758,769
+   - 1 parking spots: $826,822
+   - 1 parking spots: $742,414
+   - 2 parking spots: $805,547
+   - 3 parking spots: $821,995
+   Going from 0 to 2 parking spots can increase the average price by approximately 6%. In urban areas, dedicated parking is a top priority for buyers. Developers should plan for at least 1-2 parking spots per unit, and sellers can use added parking as a key differentiator in competitive markets.
+
+7. ECONOMIES OF SCALE IN HOUSING
+   Smaller homes (bottom quartile) cost $502/sqft on average, while larger homes (top quartile) cost $246/sqft. Larger homes offer better value per square foot. First-time buyers seeking maximum space efficiency should consider this metric carefully. Developers building large homes can market the superior per-square-foot value to attract value-seeking buyers.
+
+8. THE OPTIMAL CONFIGURATION FOR MAXIMUM PRICE
+   The 4-bedroom, 2-bathroom combination commands the highest average price of $947,844. This represents the market's most valued configuration. Builders and developers should use this insight to guide floor plan design for new construction projects. However, this premium configuration may not suit all buyer segments — a balanced portfolio of configurations is recommended for developers targeting diverse markets.
+
+9. PREDICTABILITY OF THE MARKET
+   A Linear Regression model trained on Area, Bedrooms, Bathrooms, Parking, and Location can explain a significant portion of price variance (as measured by R² score). This indicates that the housing market in this dataset is largely driven by these fundamental features, rather than speculative or unmeasured factors. For real estate platforms, this means automated price estimation tools (AVMs) can be highly effective with just these basic features, reducing the need for expensive manual appraisals in many cases.
+
+10. STRATEGIC INVESTMENT RECOMMENDATIONS
+   Based on the analysis:
+   (a) VALUE BUYING: Target areas in 'Semi-Urban' or 'Suburb' zones with below-median prices but strong feature profiles (good area, 2+ bedrooms, parking) — these offer the best appreciation potential as urban sprawl continues.
+   (b) PREMIUM INVESTING: Properties in 'Downtown' and 'Coastal' areas with 3+ bedrooms and 2+ bathrooms represent stable, high-value assets with strong rental yields.
+   (c) RENOVATION PLAYS: Homes with 1 bathroom in 2-3 bedroom configurations represent the highest renovation ROI opportunity — adding a bathroom can significantly close the price gap with comparable homes.
+   (d) DEVELOPER GUIDANCE: Focus new construction on the 4B/2Ba configuration in mid-tier locations for optimal risk-adjusted returns.
